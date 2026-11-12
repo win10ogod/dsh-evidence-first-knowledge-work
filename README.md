@@ -1,6 +1,6 @@
 # dsh-evidence-first-knowledge-work
 
-把 [evidence-first-knowledge-work](https://github.com/win10ogod/evidence-first-knowledge-work) 1.1.0 封裝為 DeepSeek Harness 插件。已依 DSH `0.1.7-rc.2`、`0.2.0-rc.2`、`0.2.1-alpha.1` 與 `0.2.2-alpha.2` 的 Skill 註冊介面製作。
+把 [evidence-first-knowledge-work](https://github.com/win10ogod/evidence-first-knowledge-work) 1.1.0 封裝為 DeepSeek Harness 插件。已依 DSH `0.1.7-rc.2`、`0.2.0-rc.2`、`0.2.1-alpha.1`、`0.2.2-alpha.2` 與 `0.2.2-rc.1` 的 Skill 註冊介面製作。
 
 插件將完整的 `SKILL.md`、參考文件與評估工具放在 `assets/evidence-first-knowledge-work/`，並註冊到 DSH 原有的 `ctx.skills`。代理會在技能目錄看到名稱和描述；任務符合描述時可用 `skill` 工具載入全文。使用者也可在訊息中輸入 `/evidence-first-knowledge-work` 明確載入。載入全文時，DSH 會提供包內資源目錄，供代理按需讀取 `references/` 等文件。
 
